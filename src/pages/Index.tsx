@@ -10,8 +10,9 @@ import { VisualFlow } from '@/components/VisualFlow';
 import { InteractiveDemo } from '@/components/InteractiveDemo';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { WelcomePanel } from '@/components/WelcomePanel';
+import { EncryptionModes } from '@/components/EncryptionModes';
 import { Algorithm } from '@/lib/algorithms';
-import { BookOpen, Play, GitCompare, Menu, X } from 'lucide-react';
+import { BookOpen, Play, GitCompare, Menu, X, Layers } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
@@ -85,6 +86,10 @@ const Index = () => {
                         <Play className="h-4 w-4" />
                         <span className="hidden sm:inline">Demo</span>
                       </TabsTrigger>
+                      <TabsTrigger value="modes" className="gap-2">
+                        <Layers className="h-4 w-4" />
+                        <span className="hidden sm:inline">Modes</span>
+                      </TabsTrigger>
                       <TabsTrigger value="compare" className="gap-2">
                         <GitCompare className="h-4 w-4" />
                         <span className="hidden sm:inline">Compare</span>
@@ -100,6 +105,10 @@ const Index = () => {
 
                     <TabsContent value="demo" className="m-0 p-6">
                       <InteractiveDemo algorithm={selectedAlgorithm} />
+                    </TabsContent>
+
+                    <TabsContent value="modes" className="m-0 p-6">
+                      <EncryptionModes />
                     </TabsContent>
 
                     <TabsContent value="compare" className="m-0 p-6">

@@ -1,10 +1,10 @@
 import { Card, CardContent } from '@/components/ui/card';
-import { Lock, Key, Hash, Shield, ArrowRight } from 'lucide-react';
+import { Lock, Key, Hash, Shield, ArrowRight, Layers } from 'lucide-react';
 
 export function WelcomePanel() {
   return (
     <div className="h-full flex items-center justify-center p-8">
-      <div className="max-w-2xl text-center space-y-8">
+      <div className="max-w-3xl text-center space-y-8">
         <div className="inline-flex p-4 rounded-2xl bg-primary/10 glow-primary animate-pulse-slow">
           <Lock className="h-16 w-16 text-primary" />
         </div>
@@ -18,8 +18,8 @@ export function WelcomePanel() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <Card className="bg-card/50 border-border hover:border-primary/50 transition-colors">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <Card className="bg-card/50 border-border hover:border-chart-2/50 transition-colors">
             <CardContent className="p-4 text-center">
               <Key className="h-8 w-8 text-chart-2 mx-auto mb-2" />
               <h3 className="font-semibold text-foreground">Symmetric</h3>
@@ -34,7 +34,7 @@ export function WelcomePanel() {
               <Shield className="h-8 w-8 text-secondary mx-auto mb-2" />
               <h3 className="font-semibold text-foreground">Asymmetric</h3>
               <p className="text-xs text-muted-foreground mt-1">
-                RSA, ECC, Diffie-Hellman
+                RSA, ECC, DH
               </p>
             </CardContent>
           </Card>
@@ -44,7 +44,17 @@ export function WelcomePanel() {
               <Hash className="h-8 w-8 text-accent mx-auto mb-2" />
               <h3 className="font-semibold text-foreground">Hashing</h3>
               <p className="text-xs text-muted-foreground mt-1">
-                SHA-256, bcrypt, MD5
+                SHA-256, bcrypt
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card className="bg-card/50 border-border hover:border-primary/50 transition-colors">
+            <CardContent className="p-4 text-center">
+              <Layers className="h-8 w-8 text-primary mx-auto mb-2" />
+              <h3 className="font-semibold text-foreground">Modes</h3>
+              <p className="text-xs text-muted-foreground mt-1">
+                CBC, GCM, CTR
               </p>
             </CardContent>
           </Card>
