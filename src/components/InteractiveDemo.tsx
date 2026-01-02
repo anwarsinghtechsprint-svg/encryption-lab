@@ -99,9 +99,9 @@ export function InteractiveDemo({ algorithm }: InteractiveDemoProps) {
             setIsProcessing(false);
             return;
           }
-          const rsaEncrypted = rsaEncrypt(input, publicKey);
+          const rsaEncrypted = await rsaEncrypt(input, publicKey);
           setOutput(rsaEncrypted);
-          const rsaDecrypted = rsaDecrypt(rsaEncrypted, privateKey, publicKey);
+          const rsaDecrypted = await rsaDecrypt(rsaEncrypted, privateKey, publicKey);
           setDecrypted(rsaDecrypted);
           break;
         }
