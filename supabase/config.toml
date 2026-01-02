@@ -1,0 +1,4 @@
+project_id = "iwwmphkpmclfxwowypqk"
+
+[functions.crypto-advisor]
+verify_jwt = false
