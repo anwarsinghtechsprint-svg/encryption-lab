@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**URL**: https://encryptionlab.lovable.app 
 
 ## How can I edit this code?
 
@@ -24,13 +24,15 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/anwarsinghtechsprint-svg/encryption-lab.git
+<img width="949" height="70" alt="image" src="https://github.com/user-attachments/assets/efb3cc0f-38b5-4422-ae34-1317bd926742" />
+
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd encryption-lab
 
 # Step 3: Install the necessary dependencies.
-npm i
+npm install
 
 # Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
@@ -60,14 +62,5 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+TechnologyGoogle Gemini AI (gemini-2.5-flash)Web Crypto APIGoogle Fonts<img width="503" height="272" alt="image" src="https://github.com/user-attachments/assets/dfcb93db-285c-424c-a0f6-b62659b68db1" />
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
