@@ -4,16 +4,6 @@
 
 **URL**: https://encryptionlab.lovable.app 
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
 **Use your preferred IDE**
 
 If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
@@ -62,5 +52,7 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-TechnologyGoogle Gemini AI (gemini-2.5-flash)Web Crypto APIGoogle Fonts<img width="503" height="272" alt="image" src="https://github.com/user-attachments/assets/dfcb93db-285c-424c-a0f6-b62659b68db1" />
+Architecture diagram of the proposed solution
+
+<img width="1114" height="655" alt="image" src="https://github.com/user-attachments/assets/69efafd7-33bc-4f16-b7f8-e300e45b706a" />
 
