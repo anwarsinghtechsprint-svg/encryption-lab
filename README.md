@@ -15,7 +15,6 @@ Follow these steps:
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
 git clone https://github.com/anwarsinghtechsprint-svg/encryption-lab.git
-<img width="949" height="70" alt="image" src="https://github.com/user-attachments/assets/efb3cc0f-38b5-4422-ae34-1317bd926742" />
 
 
 # Step 2: Navigate to the project directory.
